@@ -6,7 +6,7 @@
   background-color: white;
 }
 .strip-grey {
-  background-color: $white-offset;
+  background-color: var(--white-offset);
 }
 .strip-diagonal {
   transform: skewY(5deg);
@@ -17,7 +17,7 @@
   }
 }
 .strip-primary {
-  background-color: $primary;
+  background-color: var(--primary);
 }
 
 .strip-diagonal-right {

@@ -1,9 +1,9 @@
 .hours-list {
   max-width: 320px;
   margin: 0 auto;
-  border-top: 3px solid $primary;
-  background: $white;
-  box-shadow: 0 2px 10px rgba($black, 0.08);
+  border-top: 3px solid var(--primary);
+  background: var(--white);
+  box-shadow: 0 2px 10px var(--black-shadow);
   border-radius: 0 0 4px 4px;
   padding: 0 24px;
 }
@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 11px 0;
-  border-bottom: 1px solid $white-offset;
+  border-bottom: 1px solid var(--white-offset);
 
   &:last-child {
     border-bottom: none;
@@ -22,12 +22,12 @@
 
 .hours-day {
   font-weight: 600;
-  color: $black;
+  color: var(--black);
   font-size: 0.95rem;
 }
 
 .hours-time {
-  color: $primary;
+  color: var(--primary);
   font-weight: 500;
   font-size: 0.95rem;
 }

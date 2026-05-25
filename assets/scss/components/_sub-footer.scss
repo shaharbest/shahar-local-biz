@@ -1,6 +1,6 @@
 .sub-footer {
-  background: $sub-footer-background-color;
-  color: $sub-footer-text-color;
+  background: var(--primary-dark);
+  color: var(--white);
   padding-top: 15px;
   padding-bottom: 15px;
   @include media-breakpoint-up(md) {
